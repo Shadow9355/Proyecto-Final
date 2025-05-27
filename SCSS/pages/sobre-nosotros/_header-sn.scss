@@ -1,0 +1,16 @@
+/*   HEADER SOBRE NOSOTROS  */
+.sobre-nosotros-header__h1 {
+        @extend %titulo-principal;
+        color: #366594;
+        border-bottom: .625rem solid #366594;
+
+        h1 {
+        font-size: 5.625rem;
+        font-weight: 700;
+        }
+}
+    
+    
+    /*   NAV SOBRE NOSOTROS  */
+
+@include estilo-navbar(#87a9ca, navbar-sn);

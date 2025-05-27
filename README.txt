@@ -1,0 +1,1 @@
+Hola! Esta es la entrega n°3 de Agustin Cortez, cuenta con 5 HTML entrelazados q hacen uso de grid y flexbox y Bootstrap. Utiliza SCSS enlazado a un archivo CSS al q tambien estan linkeados los archivos. Utiliza transiciones y se adapta a diferentes dispositivos.

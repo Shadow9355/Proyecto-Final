@@ -1,0 +1,16 @@
+/*   HEADER MENÚ  */
+.menu-header__h1 {
+        @extend %titulo-principal;
+        color: #89623B;
+        border-bottom: .625rem solid #89623B;
+
+        h1 {
+        font-size: 5.625rem;
+        font-weight: 700;
+        }
+}
+
+
+/*   NAV MENÚ  */
+
+@include estilo-navbar(#b68c65, navbar-menu);

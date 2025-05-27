@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="../CSS/style.css">
+    </head>
+    <body class="contacto-body">
+        
+        <header>
+                <div class="contacto-header__h1">
+                    <h1>Contacto</h1>
+                </div>
+                <nav class="navbar navbar-expand-md navbar-contacto">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav w-100 d-flex justify-content-evenly">
+                                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+                                <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ubicacion.html">Ubicación</a></li>
+                                <li class="nav-item"><a class="nav-link" href="">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        </header>
+    
+        <main>
+            <form class="contacto-main-container">
+                <div class="contacto-main__box">
+                    <label class="contacto-main__label" for="nombre">Nombre y Apellido:</label>
+                    <input class="contacto-main__input" type="text" id="nombre" required>
+                </div>
+        
+                <div class="contacto-main__box">
+                    <label class="contacto-main__label" for="email">Correo Electronico:</label>
+                    <input class="contacto-main__input" type="email" id="email" required>
+                </div>
+        
+                <div class="contacto-main__box">
+                    <label class="contacto-main__label" for="mensaje">Mensaje:</label>
+                    <textarea class="contacto-main__textarea" name="Mensaje" id="Mensaje" required></textarea>
+                </div>
+        
+                <div class="contacto-main__box">
+                    <button class="contacto-main__button" type="submit">Enviar</button>
+                </div>
+            </form>
+        </main>
+    
+        <footer>
+            <div>
+                <ul class="footer-container">
+                    <li class="footer-container__li">Seguinos en nuestras redes:</li>
+                    <li class="footer-container__li">Instagram: <a href="">@casabruma.restaurante</a></li>
+                    <li class="footer-container__li">Facebook: <a href="">Casa Bruma Restaurante</a></li>
+                    <li class="footer-container__li">TikTok: <a href="">@casabruma</a></li>
+                </ul>
+            </div>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

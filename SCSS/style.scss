@@ -1,13 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+@import 'base/reset';
+@import 'functions/mixins';
+@import 'functions/extends';
 
-@import 'reset';
-@import 'variables';
 
 /*        INDEX         */
-@import 'body';
-@import 'header';
-@import 'main';
-@import 'footer';
-@import 'mediaq';
+@import 'pages/index/body-i';
+@import 'pages/index/header-i';
+@import 'pages/index/main-i';
+@import 'pages/index/footer-i';
+
+
+/*        MENÚ         */
+@import 'pages/menu/body-m';
+@import 'pages/menu/header-m';
+@import 'pages/menu/main-m';
+@import 'pages/menu/footer-m';
+
+
+/*        SOBRE NOSOTROS         */
+@import 'pages/sobre-nosotros/body-sn';
+@import 'pages/sobre-nosotros/header-sn';
+@import 'pages/sobre-nosotros/main-sn';
+@import 'pages/sobre-nosotros/footer-sn';
+
+
+/*        UBICACION         */
+@import 'pages/ubicacion/body-u';
+@import 'pages/ubicacion/header-u';
+@import 'pages/ubicacion/main-u';
+@import 'pages/ubicacion/footer-u';
+
+
+/*        CONTACTO         */
+@import 'pages/contacto/body-c';
+@import 'pages/contacto/header-c';
+@import 'pages/contacto/main-c';
+@import 'pages/contacto/footer-c';
+
+
+/*        MEDIAQUERYS         */
+@import 'mediaquerys/index';
+@import 'mediaquerys/menu';
+@import 'mediaquerys/sobre-nosotros';
+@import 'mediaquerys/ubicacion';
+@import 'mediaquerys/contacto';

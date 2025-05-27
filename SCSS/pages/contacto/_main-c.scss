@@ -1,0 +1,43 @@
+/*   MAIN CONTACTO  */
+.contacto-main-container {
+    margin: 60px 200px;
+
+    .contacto-main__box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin: 50px 0;
+        
+        .contacto-main__label {
+            color: #fff;
+            font-size: 19px;
+            font-weight: 600;
+        }
+        
+        .contacto-main__input {
+            background-color: #CCDD9F;
+            height: 60px;
+            width: 400px;
+            border: 0;
+            margin: 5px 0;
+        }
+        
+        .contacto-main__textarea {
+            height: 180px;
+            width: 500px;
+            background-color: #CCDD9F;
+            border: 0;
+        }
+        
+        .contacto-main__button {
+            height: 65px;
+            width: 200px;
+            margin-left: 180px;
+            background-color: #CCDD9F;
+            border: 0;
+            color: #fff;
+            font-size: 19px;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*      ANIMACIONES      */
+a {
+    border-radius: 7%;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgba(224, 80, 164, 0);
+    transform: scale(1.1);        
+    box-shadow: 0 4px 10px rgb(37, 37, 36);
+}
+
+.main-menu__box, iframe {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.main-menu__box:hover, iframe:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: rgb(37, 37, 36);
+    box-shadow: 0 0 8px rgb(37, 37, 36);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="submit"] {
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(37, 37, 36);
+}

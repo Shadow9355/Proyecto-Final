@@ -1,0 +1,29 @@
+/*   MAIN MENÚ  */
+.main-menu-container {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 120px;
+    margin: 120px 0;
+    
+    .main-menu__box {
+        height: 280px;
+        width: 280px;
+        background-color: #F0EBEB;
+        border: 1px solid #000;
+        border-radius: 7%;
+        text-align: center;
+        justify-self: center;
+        box-shadow: 0 0 15px #000000;
+        
+        img {
+            height: 80%;
+            width: 100%;
+            border: 1px solid #000;
+            border-radius: 7%;
+        }
+    }
+}

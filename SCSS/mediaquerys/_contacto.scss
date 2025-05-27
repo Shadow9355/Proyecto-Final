@@ -1,0 +1,88 @@
+/*   MEDIA QUERYS CONTACTO 992 PX   */
+@media (max-width: 992px) {
+  .contacto-header__h1 h1 {
+    font-size: 3.5rem;
+  }
+
+  .navbar-contacto {
+    margin: 30px 0;
+  }
+
+  .contacto-main-container {
+    margin: 40px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacto-main-container .contacto-main__input {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .contacto-main-container .contacto-main__textarea {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .contacto-main-container .contacto-main__button {
+    margin-left: 0;
+  }
+
+  .footer-container .footer-container__li {
+    font-size: 18px;
+  }
+}
+
+/*   MEDIA QUERYS CONTACTO 576 PX   */
+@media (max-width: 576px) {
+  .contacto-header__h1 {
+    height: auto;
+    margin: 20px 0;
+  }
+  .contacto-header__h1 h1 {
+    font-size: 2.5rem;
+    padding: 0 10px;
+  }
+  .navbar-contacto {
+    padding: 10px;
+    margin: 20px 0;
+  }
+  .navbar-contacto .nav-link {
+    font-size: 16px;
+    margin: 0 0.3rem;
+    padding: 8px 0;
+  }
+
+  .contacto-main-container {
+    margin: 20px 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacto-main-container .contacto-main__input,
+  .contacto-main-container .contacto-main__textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contacto-main-container .contacto-main__button {
+    width: 100%;
+    margin-left: 0;
+    height: 50px;
+    font-size: 17px;
+  }
+
+  .footer-container {
+    margin: 30px 0;
+  }
+
+  .footer-container .footer-container__li {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
